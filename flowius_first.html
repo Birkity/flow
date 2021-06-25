@@ -1,25 +1,28 @@
-<html>
+
+<!doctype html>
     <head>
+      <title>Sign up :: Flowius</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     
         <style>
              html, body {
-      display: flex;
+      
       justify-content: center;
+      display: flex;
       font-family: Roboto, Arial, sans-serif;
       font-size: 14px;
      
 
       }
       form {
-      border: 5px solid #d0dfe6;
+      border: 6px solid #d0dfe6;
       }
       input[type=text], input[type=password] {
       width: 100%;
       padding: 12px 6px;
       margin: 5px 0;
-      display: inline-block;
+      display: block;
       border: 1px solid #ccc;
       box-sizing: border-box;
     }
@@ -42,7 +45,7 @@
       }
       h1 {
       text-align:center;
-      fone-size:15;
+      fone-size: 15px;
       color:#4286f4;
       }
       button:hover {
@@ -58,8 +61,8 @@
       }
       span.psw {
       float: right;
-      padding-top: 0;
-      padding-right: 15px;
+      padding-top: 0px;
+      padding-right: 100px;
       }
       /* Change styles for span on extra small screens */
       @media screen and (max-width: 200px) {
@@ -85,8 +88,10 @@
                     <label for="uname"><strong>Username</strong></label>
                     <input type="text" placeholder="Enter Username" name="uname" required>
                     <label for="mail"><strong>E-mail</strong></label>
+                    
                     <input type="text" placeholder="Enter E-mail" name="mail" required>
                     <label for="psw"><strong>Password</strong></label>
+                    
                     <input type="password" placeholder="Enter Password" name="psw" required>
                   </div>
                   <button type="submit"><strong>SIGN UP</strong></button>
@@ -94,8 +99,9 @@
                     <label style="padding-left: 15px">
                     <input type="checkbox"  checked="checked" name="remember"> Remember me
                     </label>
-                    <span class="psw"><a href="#">Forgot password?</a></span>
+                    <span class="psw"><a href="#">Forget password?</a></span>
                   </div>
+                 
                 </form>
             </body>
     </html>
